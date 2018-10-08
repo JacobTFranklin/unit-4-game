@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+   <title>Crystal Collector</title>
+
+   <!--External CSS-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<!--Wrapper-->
+<div class="wrapper">
+
+
+<!--Header Section-->
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+
+<h1><center>CrystalsCollector!</center></h1>
+
+</div>
+</div>
+</div>
+
+<!--Main Section-->
+<div class="container">
+
+
+        <!--Instruction Card-->
+        <div class="container">
+        <div class= "row">
+        <div class="col-md-12">
+        <div class="card">
+        <div class="card-body">
+
+        You will be given a random number at the start of the game.
+        <br>
+        <br>
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+        <br>
+        <br>
+        You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+        <br>
+        <br>
+        The value of each crystal is hidden from you until you click on it.
+        <br>
+        <br>
+        Each time when the game starts, the game will change the values of each crystal.
+
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <!--Stats/Crystals-->
+        <div class="container">
+        <div class="row">
+        
+        <div class="col-12-md w-100">
+                
+                <div class="card">
+                <div class="card-body">
+                    <div><center>Target Score:<br> <span id="targetScore"></div></center></div>
+                </div>
+                </div>
+           
+
+        </div>
+        </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+        <div class="col-12-md" id="crystals">
+
+                <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                   
+                        <div class="w-25">
+                            <img id="blue" src="assets/images/blue.jpeg" alt="blue" class="img-thumbnail">
+                        </div>
+                        <div class="w-25">
+                            <img id="green" src="assets/images/green.jpg" alt="green" class="img-thumbnail">
+                        </div>
+                        <div class="w-25">
+                            <img id="pink" src="assets/images/pink.jpg" alt="pink" class="img-thumbnail">
+                        </div>
+                        <div class="w-25">
+                            <img id="black" src="assets/images/black.jpg" alt="black" class="img-thumbnail">
+                        </div>
+                  
+                    </div>
+                </div>
+                </div>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+        <div class="col-12-md w-100">
+
+                <div class="card">
+                <div class="card-body">
+                <div><center>Wins: <span id="wins"></div></center></div>
+                
+                <div><center>Losses: <span id="losses"></div></center></div>
+
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+            
+
+        </div>
+
+        </div>
+        </div>
+
+        <!--Total Score Section-->
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+                
+                <div class="card">
+                <div class="card-body">
+                <div><center>Your Score: <span id="score"></div></center></div>
+                </div>
+                </div>
+
+        </div>
+        </div>
+        </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<!--Wrapper-->
+</div>
+
+<!--Footer Section-->
+<footer class="footer">
+
+        <div class="container">
+            <center>Copyright 2018 Jacob Franklin</center>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+
+
+<!--External Javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
